@@ -1,0 +1,194 @@
+/* flex */
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sr-only {
+    display: none;
+}
+
+.inner {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+h1 {
+    /* border: 1px solid green; */
+    font-family: 'giddyup-std', sans-serif;
+}
+
+.text {
+    /* border: 1px solid red; */
+    color: #DBDBDD;
+}
+
+
+/* header */
+
+.header {
+    background-color: #26292E;
+}
+.header .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.social-list-item {
+    /* border: 1px solid red;  */
+    display: inline-block;
+}
+
+.img {
+    /* border: 1px solid cyan; */
+    border-radius: 20px;
+    width: 40px; 
+    background-color: white;
+}
+
+.logo {
+    color: white;
+}
+
+/* end header */
+
+/* main */
+
+.section1 {
+    /* border: 1px solid #E7718B;  */
+    padding: 20px 0;
+    width: auto;
+    background-color: #E7718B;
+}
+
+.block1 {
+    width: 420px;
+    height: 36vh;
+    color: white;
+}
+
+.block1-text {
+    color: white; 
+}
+
+.button {
+    /* border: 1px solid yellow; */
+    border-radius: 8px;
+    padding: 10px;
+    color:  white;
+    background: linear-gradient(#8B8A88, #292B2A);
+}
+
+.block2 {
+    /* border: 1px solid yellow; */
+    display: flex;
+}
+
+.landing-img {
+    width: 400px;
+    margin-left: 460px;
+    margin-top: -280px;
+}
+
+.section2{
+     background-color: #F4F4F6;
+     border-bottom: 4px solid #F9E6EA;
+}
+
+.section2  .inner{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 300px;
+}
+
+.section2 .sub-header {
+    /* border: 1px solid blue; */
+    margin-left: 25px;
+    margin-top: -25px;
+    padding-bottom: 15px;
+}
+
+.block3 {
+    /* border: 1px solid yellow; */
+}
+
+.section3 .inner {
+    /* border: 1px solid red;    */
+    display: flex;
+    height: 380px;
+}
+
+.block6 {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.products .img-fluid {
+    box-shadow: 2px 7px 30px black;
+    width: 200px;
+}
+
+.products {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.product {
+    margin: 15px;
+    width: 210px;
+}
+
+.aside {
+    /* border: 1px solid purple; */
+    width: 480px;
+}
+
+.bold {
+    /* border: 1px solid yellow; */
+    color: black;
+}
+
+/* main end  */
+
+/* footer */
+
+.footer {
+    background-color: #26292E;
+}
+
+.footer .inner {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.colophon-text {
+    /* border: 1px solid cyan; */
+    color: white;
+}
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

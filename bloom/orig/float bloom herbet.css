@@ -1,0 +1,264 @@
+/* margin padding float */
+
+/* font-family: 'Butterfly Kids', cursive; */
+
+/* colors
+
+headerBg #26292e
+sec1grad #ea8b9f -> #e7718b
+button #272928
+sec2Bg #f4f4f6
+sec2border #fce3e7
+sec3Bg #ffffff
+
+*/
+
+:root {
+    --prim: #26292e;
+    --sec: #f4fef6;
+    --tert: #fce3e7;
+    --btnColor: #272928;
+    --headerFont: 'Butterfly Kids', cursive;;
+}
+
+/* icons */
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
+  
+  .icon-bubbles {
+    width: 1.125em;
+  }
+
+  .icon-facebook {
+      font-size: 16px;
+  }
+
+/* generic */
+
+* { box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sr-only {
+    display: none;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 960px;
+    /* border: 1px solid green; */
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* close generic */
+
+/* header */
+
+.header {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    background-color: var(--prim);
+}
+
+.logo {
+    margin: 0;
+    color: var(--sec);
+    font-family: var(--headerFont);
+    font-size: 42px;
+    text-transform: capitalize;
+}
+
+.top-nav {
+    margin-top: -50px;
+    float: right;
+}
+
+.social-list {
+    margin: 0;
+}
+
+.so-list-item {
+    display: inline;
+    margin-left: 10px;
+}
+
+.social-img {
+    border-radius: 50%;
+}
+/* close header */
+
+/* main */
+
+.section1 {
+    padding: 20px 0;
+    background: radial-gradient(
+        at top left, 
+        #ea8b9f,
+        #e7718b
+    );
+}
+
+.block1, .block2 {
+    width: 45%;
+    float: left;
+}
+
+.block1 .sub-header, .block1-text {
+    color: var(--sec);
+}
+
+.block1-text {
+    width: 80%;
+    font-size: 14px;
+}
+
+.button {
+    padding: 3px 18px;
+    color: var(--sec);
+    text-transform: capitalize;
+    background-color: var(--btnColor);
+    border-radius: 5px; 
+}
+
+.landing-img {
+    display: block;
+    margin: 0 auto;
+    width: 120%;
+    height: auto;
+}
+
+.section2 {
+    padding: 20px 0;
+    background-color: var(--sec);
+    border-bottom: 8px solid var(--tert);
+}
+
+.section2 .block {
+    width: calc(100% / 3);
+    padding: 5px;
+    float: left;
+    /* border: 1px solid black; */
+}
+
+.section2 .sub-header {
+    color: var(--prim);
+    font-size: 18px;
+}
+
+.section2 .text {
+    color: #777;
+    font-size: 14px;
+}
+
+.section3 {
+    padding: 20px 0;
+}
+
+.section3 .sub-header {
+    color: var(--prim);
+    font-size: 20px;
+}
+
+.block6 {
+    width: 55%;
+    margin-right: 40px;
+}
+
+.aside {
+    width: 40%;
+    /* border: 1px solid black; */
+}
+
+.block6, .aside {
+    float: left;
+    /* border: 1px solid black; */
+}
+
+
+.block6 .sub-header, .products {
+    margin: 0;
+}
+
+.product {
+    margin: 20px 20px 20px 0;
+    padding: 5px;
+    width: 220px;
+    height: 120px;
+    float: left;
+    background-color: var(--prim);
+    border: 10px solid #bbb;
+    box-shadow: 4px 4px 4px #888;
+}
+
+.aside .sub-header{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.aside-text {
+    /* width: 90%; */
+    margin-bottom: 35px;
+    color: #777;
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+/* close main */
+
+/* footer */
+
+.footer {
+    padding: 5px 0;
+    background-color: var(--prim);
+}
+
+.colophon-text {
+    padding-top: 40px;
+    color: var(--sec);
+    font-size: 8px;
+}
+
+.footer-nav {
+    margin-top: -50px;
+    padding: 10px 0;
+    float: right;
+}
+
+/* close footer */
+

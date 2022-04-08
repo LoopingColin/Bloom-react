@@ -1,0 +1,309 @@
+/* position */
+
+
+* { box-sizing: border-box;}
+
+body {
+    /* border: 1px solid yellow; */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+     /* border: 1px solid red;  */
+    text-decoration: none;
+}
+
+a:hover {
+    border: 1px solid blue;
+}
+
+.inner {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 98%;
+    padding: 0;
+    padding-left: 20px; 
+}
+
+h1 {
+    /* border: 1px solid green; */
+    font-family: 'giddyup-std', sans-serif;
+}
+
+
+.text {
+     /* border: 1px solid red; */
+     color: #DBDBDD;
+}
+
+
+/* header */
+
+.header {
+    /* border: 1px solid purple; */
+    width: 100%;
+    background-color: #26292E;
+    
+}
+
+.logo {
+    /* border: 1px solid brown;  */
+    position: absolute;
+    top: -10px;
+    left: 200px;
+    color: white;
+}
+
+.nav {
+      /* border: 1px solid green;  */
+      width: 100%;
+      height: 80px;
+      /* background-color: blue; */
+}
+    
+.top-nav {
+    /* border: 1px solid blue; */
+    top: 10px;
+    right: 3%;
+    height: 80px;
+}
+
+.social-list {
+    /* border: 1px solid yellow; */
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.social-list-item {
+    /* border: 1px solid cyan; */
+    display: inline;
+    padding: 0 10px;
+}
+
+.social-list-item {
+    position: relative;
+    left: 65%;
+    top: 20px;
+}
+
+.img {
+    /* border: 1px solid cyan; */
+    border-radius: 25px;    
+    width: 40px;
+    height: 35px;
+    background-color: white;
+}
+
+.sr-only {
+    /* border:1px solid purple; */
+    display: none;
+}
+
+/* close header */
+
+/* main */
+
+.section1 {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: #E7718B;
+}
+
+.block1 {
+    /* border: 1px solid red;  */
+    position: absolute;
+    padding: 20px 10px;
+    left: 180px;
+    width: calc(100% / 3);
+    height: 36vh;
+    color: white;
+}
+
+.block1-text {
+    color: white;
+}
+
+.button {
+    /* border: 1px solid yellow; */
+    border-radius: 8px;
+    padding: 10px;
+    color:  white;
+    background: linear-gradient(#8B8A88, #292B2A);
+}
+
+#button2 {
+    position: relative;
+    left: 14px;
+}
+
+
+.block2 {
+     /* border: 1px solid blue; */
+     right: 320px;
+     top: 30px;
+     position: absolute;
+}
+
+.landing-img {
+    /* border: 1px solid red; */
+    width: 400px;
+}
+
+.section2 {
+    /* border: 1px solid cyan;  */
+    position: relative;
+    width: 100%;
+    height: 52vh;
+    background-color: #F4F4F6;
+}
+
+.section2 {
+    border-bottom: 4px solid #F9E6EA;
+}
+
+.block3 {
+    position: absolute;
+    width: 350px;
+    top: 0;
+    left: 180px;
+}
+
+.top-subheader {
+    padding: 10px;
+    margin: 20px;
+}
+
+.cloud {
+    width: 45px;
+    position: absolute;
+    left: -10px;
+    top: 10px;
+}
+
+.star {
+    width: 45px;
+    position: absolute;
+    left: -20px;
+    top: 18px;
+}
+
+.chat {
+    /* border: 1px solid purple; */
+    width: 45px;
+    position: absolute;
+    left: -15px;
+    top: 15px;
+}
+
+.block4 {
+    width: 350px;
+    position: absolute;
+    top: 0;
+    left: 550px;
+}
+
+.block5 {
+    position: absolute;
+    top: 0;
+    right: 80px;
+    width: 350px;
+}
+
+.block6 {
+     /* border: 1px solid brown;   */
+    position: relative;
+    left: 135px;
+    width: 45%;
+    height: 350px;
+    top: 150px;
+    
+}
+
+#sub-header {
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top: -60px;
+}
+
+.products .img-fluid {
+    box-shadow: 2px 7px 30px black;
+    width: 250px;
+}
+.product {
+    /* border: 1px solid blue; */
+    position: absolute;
+}
+
+.product:first-child {
+    /* border: 1px solid purple;   */
+    top: 0;
+    left: 0;
+}
+
+.product:nth-child(2) {
+    /* border: 1px solid red;   */
+    top: 0;
+    left: 260px;
+}
+
+.product:nth-child(3) {
+    /* border: 1px solid cyan;   */
+    left: 260px;
+    top: 155px;
+}
+
+.product:nth-child(4) {
+    /* border: 1px solid black;   */
+    left: 0px;
+    top: 155px;
+}
+
+#product-img {
+    /* border: 1px solid cyan; */
+    width: 200px;
+    height: auto;
+}
+
+.aside {
+     /* border: 1px solid cyan;  */
+    position: relative;
+    top: -260px;
+    width: 320px;
+    left: 50%;
+    height: 420px;
+}
+
+.bold {
+    /* border: 1px solid yellow; */
+    color: black;
+}
+
+/* main end */
+
+/* footer */
+.footer {
+    background-color: #26292E;
+}
+
+.colophon-text {
+    /* border: 1px solid cyan; */
+    position: absolute;
+    left: 280px;
+    color: white;
+}
+
+/* footer end */
+    
+
+
+    
+
+    
+
+
+
+
